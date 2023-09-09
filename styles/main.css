@@ -31,3 +31,27 @@ a {
   background-position: center center;
   background-size: cover;
 }
+.features {
+  padding: 32px 16px;
+}
+.features h2 {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.features ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.features ul li {
+  padding: 8px;
+  width: 33%;
+  line-height: 1.5; /* 調整行距方便閱讀 */
+}
+.features h3 {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 8px;
+}
