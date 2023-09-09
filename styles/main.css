@@ -25,3 +25,9 @@ a {
   font-size: 32px;
   font-weight: bold;
 }
+.banner {
+  background: url('../img/banner.jpg') no-repeat;
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+}
