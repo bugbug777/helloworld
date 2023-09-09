@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+a {
+  /* Remove all anchors' underline */
+  text-decoration: none;
+}
+
+.header nav {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header ul {
+  display: flex;
+}
+.header ul li a {
+  padding: 8px 12px;
+  color: black;
+  font-size: 24px;
+}
+.logo {
+  color: black;
+  font-size: 32px;
+  font-weight: bold;
+}
